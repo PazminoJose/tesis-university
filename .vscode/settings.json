@@ -12,26 +12,5 @@
         "Renderizado"
     ],
     "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
-    "latex-workshop.latex.outDir": "%DIR%/out",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latex.clean.fileTypes": [
-        "*.aux",
-        "*.bbl",
-        "*.blg",
-        "*.idx",
-        "*.ind",
-        "*.lof",
-        "*.lot",
-        "*.out",
-        "*.toc",
-        "*.acn",
-        "*.acr",
-        "*.alg",
-        "*.glg",
-        "*.glo",
-        "*.gls",
-        "*.ist",
-        "*.fls",
-        "*.log"
-    ]
+    "latex-workshop.latex.outDir": "%DIR%/out"
 }
