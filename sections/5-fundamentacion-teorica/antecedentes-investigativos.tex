@@ -1,0 +1,130 @@
+\subsection{Antecedentes investigativos}
+En esta sección se muestran todos aquellos trabajos que proporcionan un contexto
+precedente sobre el trabajo de investigación a realizarse.
+\bigbreak
+Con el propósito de obtener información relevante sobre el tema propuesto para este proyecto se realizo una
+búsqueda exhaustiva en las revistas IEEE, SPRINGER LINK, asi como en los repositorios de GOOGLE SCHOLAR
+y LA UNIVERSIDAD TÉCNICA DE AMBATO en el periodo de 2015 a 2023, en la tabla \ref{table:articulosobtenidos}
+se muestran los resultados
+obtenidos:
+\input{resources/tables/antecedentes.tex}
+Como se muestra en la tabla \ref{table:articulosobtenidos}, mediante la revisión sistemática se obtuvo un total de 2055 artículos relacionados.
+Sin embargo, Con la finalidad de obtener información relevante para el desarrollo de este proyecto se descartaron
+aquellos artículos que no cumplan con los criterios de exclusión e inclusión que se muestran en la tabla \ref{table:criteriosinclusionexclusion}:
+\input{resources/tables/criterios-de-inclusion-exclusion.tex}
+\newpage
+Mediante la exclusión realizada se obtuvo un total de 20 artículos que contiene información sobre datos georreferenciados.
+Aunque los artículos obtenidos no cumplen exactamente con el objetivo propuesto para esta investigación, se destaca a continuación
+los trabajos mas relevantes para el desarrollo de este proyecto.
+% Mediante la revision sistemática de la bibliografía en revistas y repositorios digitales, se  no se encontraron trabajos que cumplan exactamente con el objetivo
+% propuesto para esta investigación. Sin embargo, se destaca a continuación los trabajos con la información mas relevante para el desarrollo de este proyecto.
+\bigbreak
+Los autores de \cite{herreraGeoBIBigVGI2015} mencionan las ventajas del uso de los Sistemas de Información Geográfica (GIS).
+Estas son herramientas masivas utilizadas para mostrar información de interés en mapas. Además, destacan las ventajas del empleo de
+herramientas de Business Intelligence para el procesamiento de grandes cantidades de datos, especialmente en el contexto de
+datos georreferenciados, denominado Geo Business Intelligence (GeoBI). Esta disciplina se encarga de abordar el análisis de datos
+geoespaciales para mejorar la toma de decisiones en las organizaciones. En el trabajo se propone crear un Sistema de información
+geográfica voluntaria (VGI) el cual conste de un portal web. Este sistema habilitará el manejo de usuarios y visualización de mapas.
+También se utilizará una aplicación cliente sea web o móvil, para ingresos de datos y una base de datos geográfica (GeoDB) con
+la cual almacenar la información geográfica voluntaria. En el sistema se hará uso del framework "Monitor, Analyze and Drill to Detail"
+(MAD), el cual permite separar las necesidades de los usuarios dependiendo al perfil que tengan asignado, como administradores,
+analistas y entes de control de una organización. Se menciona que los sistemas GIS deberían proporcionar ciertos elementos básicos,
+como portales web, aplicaciones clientes, servidores de mapas y bases de datos con capacidades de almacenamiento de datos geográficos.
+Sin embargo, todo lo planteado en el trabajo es una propuesta por parte de los autores y no se muestra un prototipo funcional.
+\bigbreak
+En \cite{linUsingMachineLearning2017} el trabajo propuesto se centra en el uso de machine learning para la predicción de delitos,
+específicamente en el uso de deep learning. En el trabajo se divide un mapa en cuadriculas, con el fin de verificar si en una cuadricula
+se a detectado un crimen y tomarlo como un punto caliente. Para este modelo se tomaron en cuenta siete patrones espacio temporales,
+las cuales son: mes, mes siguiente, año pasado, cuadrículas rodeadas en ocho direcciones en el mes actual, cuadrículas rodeadas en
+ocho direcciones el año pasado, tendencia y proporción, más no se menciona de donde fueron extraídas tales características ni mediante
+que medios. No obstante aunque no se trate el tema del software en la adquisición de los datos georreferenciados parad delitos, las
+características que se muestran aportan información valiosa para ser utilizada en el contexto de modelos analíticos de BI.
+\bigbreak
+En \cite{CrimesPredictionUsing2019}, el autor propone un modelo de predicción de delitos basado en el uso de datos espacio-temporales
+y el método Kernel Density Estimation (KDE), frecuentemente utilizado para estimar la densidad de crímenes. En el trabajo propuesto,
+se detalla el flujo de trabajo para el preprocesamiento de los datos, que implica la eliminación de características irrelevantes y valores
+geográficos fuera de la zona de estudio. El autor también menciona que el número de observaciones es de 1,762,311 y detalla las características
+del dataset, como fecha, categoría del crimen, día de la semana, distrito policial, resolución del crimen, dirección, latitud y longitud.
+A pesar de esto, en el trabajo no se menciona el uso de software para la adquisición de datos georreferenciados, ya que el dataset proviene de Kaggle.
+No obstante, el artículo es importante para el desarrollo de este proyecto, ya que ofrece datos prácticos que pueden ser útiles en la creación
+de modelos analíticos de Business Intelligence (BI).
+\bigbreak
+Los autores de \cite{winPCPDParallelCrime2019} proponen el algoritmo Criminal Activity Clustering (CAC) el cual está basado
+en la clusterización difusa de puntos delictivos con la finalidad de agrupar grandes volúmenes de datos georreferenciados de delitos,
+así como identificar patrones de comportamiento de los siniestros. En el trabajo se muestra una descripción de las características
+utilizadas en el desarrollo del algoritmo, las cuales son: fecha, lugar del incidente, información del incidente, información del ataque,
+información de la víctima, información del perpetrador, información del arma, causalidades y cocecuencias, estas características son
+obtenidas desde la base de datos de terrorismo global (GTD). Tales características propuestas son útiles para su uso en modelos
+analíticos de BI. Sin embargo, el trabajo como tal no aborda el uso de software para la adquisición de datos georreferenciados o
+su uso en BI.
+\bigbreak
+En el trabajo propuesto en \cite{amirkhanyanMethodsFrameworksGeoSpatioTemporal2019} no se aborda el uso de software para la
+adquisición de datos georreferenciados de crímenes ni su utilización en modelos de BI. En su lugar, se tratan marcos para el
+análisis de datos geoespaciales, los cuales incluyen la recopilación, normalización, geolocalización y almacenamiento de los datos.
+Estos marcos permiten crear un algoritmo de clustering del lado del servidor para mapas, capaz de manejar una gran cantidad de datos
+georreferenciados de forma masiva. En el trabajo se presentan los diagramas de entidad-relación con los tipos de datos utilizados
+para desarrollar el algoritmo.
+\bigbreak
+En el trabajo presentado en \cite{kumarCrimePredictionUsing2020}, se propone un modelo de predicción de delitos basado en el uso
+del algoritmo de K-Nearest Neighboring (KNN). Aunque en el trabajo propuesto no se considera el uso de software para la adquisición de datos
+georreferenciados de delitos ni el desarrollo de un modelo analítico de BI, se muestra cómo los datos fueron preprocesados eliminando
+valores nulos y datos innecesarios, obteniendo las siguientes características importantes: Hora, latitud, longitud, año, mes y semana del año.
+Aun así, el autor menciona que los atributos obtenidos pueden no ser suficientes, por lo cual se deberían encontrar una mayor cantidad
+de atributos importantes relacionados con los crímenes.
+\bigbreak
+En \cite{hossainCrimePredictionUsing2020} el autor se centra principalmente en el uso de algoritmos de aprendizaje supervisado
+para la predicción de delitos. La finalidad del uso de estos algoritmos es proporcionar información temprana sobre la actividad
+delictiva a entidades de control y agentes de la ley. El trabajo presenta los atributos propuestos para el dataset tales como:
+fecha, categoría, día, distrito policial, resolución del crimen, dirección, latitud y longitud. Estos datos son extraídos del
+sistema de reportes de incidentes del Departamento de Policía de San Francisco (SFPD). Sin embargo, el trabajo no aborda el uso
+de software para la adquisición de datos georreferenciados de crímenes ni su uso para modelos analíticos de Business Intelligence
+(BI). A pesar de ello, este trabajo resulta relevante para el desarrollo del proyecto actual, ya que proporciona datos útiles que
+pueden ser empleados en la creación de un modelo analítico de BI.
+\bigbreak
+% El autor en \cite{moralesgutamaSistemaWebUsando2023} presenta el desarrollo de un sistema web el cual permita gestionar las
+% calificaciones y asistencia en la unidad educativa Huachi Grande. Este sistema web esta desarrollado tanto su frontend y backend
+% utilizando el framework Laravel con el lenguaje de programación PHP, junto a una base de datos en MySQL. Para el desarrollo de
+% este proyecto de aplico la metodología de desarrollo ágil XP.
+% \bigbreak
+En \cite{botto-tobarAppliedTechnologiesSecond2021} se muestra un prototipo de una aplicación web desarrollada
+utilizando el patrón de arquitectura cliente-servidor en Visual Studio 2017 Community, utilizando el lenguaje de programación C\#
+junto al framework ASP.NET, también la aplicación utiliza el API de google map. Esta aplicación permite recolectar y mostrar datos
+georreferenciados de delitos en la ciudad de Ambato. El trabajo propuesto exhibe el modelo de la base de datos, desarrollado en SQL
+Server  y las interfaces propuestas para el prototipo. La aplicación desarrollada permite a los usuarios reportar delitos mediante
+un formulario y muestra los puntos de siniestros mediante un mapa de calor de la ciudad. Además, permite visualizar reportes de los
+delitos desde un punto de vista cualitativo y cuantitativo mediante el uso de la herramienta Power BI integrada en la aplicación web.
+No obstante, el trabajo presentado no profundiza en el uso de los datos obtenidos para generar modelos analíticos de BI.
+\bigbreak
+En \cite{chasichangoAplicacionMovilApoyo2022} se destaca el uso de la georreferenciación en sistemas de seguridad en el cual
+se propone una aplicación móvil desarrollada en IONIC usando el lenguaje de programación Javascript. La aplicación permite el
+envió de la geolocalización mediante notificaciones push utilizando el servicio de one signal. El backend de esta aplicación esta
+desarrollado en NodeJS utilizando express y como base de datos utiliza MongoDB. El objetivo de esta aplicación es ayudar acometer
+la problemática social de la inseguridad ciudadana en la parroquia Santa Rosa de la ciudad de Ambato.
+\bigbreak
+En \cite{lesanoperezAplicativoMovilGeoubicacion2022} se describe el desarrollo de una aplicación móvil que se encarga de enviar
+la ubicación en tiempo real para el transporte privado de la empresa Plasticaucho S.A. de la ciudad de Ambato. Esta aplicación móvil
+utiliza Xamarin Forms con el lenguaje de programación C\#. En el backend, se empleó el framework ASP.NET, también utilizando el lenguaje
+de programación C\#, e implementando el patrón de arquitectura MVC, junto a una base de datos en PostgreSQL. El proyecto se llevó a
+cabo utilizando la metodología de desarrollo ágil XP.
+\bigbreak
+En \cite{chicaizavillegasAplicacionWebPara2023}, se desarrolló una aplicación web que incorpora georreferenciación.
+Esta aplicación utiliza el framework Angular junto con el lenguaje de programación JavaScript para el frontend. El backend fue
+implementado mediante el framework ASP.NET utilizando el lenguaje de programación C\#, y se empleó una base de datos MySQL. Para
+el desarrollo de este proyecto, se aplicó la metodología de desarrollo Extreme Programming (XP), orientada a grupos reducidos de
+desarrollo. La aplicación creada permite gestionar servicios, notificaciones de pago y geolocalización de viviendas para la empresa
+Optynet.
+\bigbreak
+Los autores en \cite{gomezcantilloAplicativoMovilPara} presentan el diseño y desarrollo de una aplicación móvil que aborda la
+problemática de la predicción de crímenes. Esta aplicación se fundamenta en la integración de tecnologías modernas, la recopilación
+de datos geoespaciales, el análisis de datos e inteligencia artificial. En el trabajo, se detallan las técnicas utilizadas para la
+recopilación de información. Se menciona el empleo de la herramienta Taled Open Studio, la cual se utilizó para llevar a cabo el
+proceso de Extracción, Transformación y Carga de datos (ETL), almacenándolos en una base de datos MySql. Además, el proyecto exhibe
+las interfaces de la aplicación móvil, que constan de un módulo de autenticación, otro de reporte de delitos y un tercer módulo para
+la visualización de estos. Dentro del módulo de visualización de delitos, se presentan mapas de calor que muestran los incidentes
+ocurridos, agrupándolos por áreas mediante esferas de colores que representan el total de siniestros en cada zona. Por otro lado,
+el módulo de reporte de delitos permite a los usuarios informar los incidentes de los que han sido víctimas mediante un formulario
+y un mapa para señalar la ubicación del suceso. Además, la aplicación ofrece estadísticas sobre los incidentes reportados en distintos
+periodos de tiempo para el conocimiento de la ciudadanía. Este trabajo proporciona un medio para la adquisición de datos georreferenciados
+mediante el uso de software, así como una plataforma para mostrar información relevante a la ciudadanía. No obstante, no incluye detalles
+sobre las características utilizadas ni los diagramas de la base de datos. Tampoco aborda el uso de modelos analíticos de Business
+Intelligence (BI).
