@@ -335,5 +335,3 @@ one to none/.style={
 		\end{longtable}
 	\end{ThreePartTable}
 }
-
-

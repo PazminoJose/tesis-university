@@ -9,6 +9,7 @@
         "georreferenciados",
         "hotspots",
         "PADF",
+        "renderizado",
         "Renderizado"
     ],
     "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
